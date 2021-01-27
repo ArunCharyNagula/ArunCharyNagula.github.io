@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+}
+.Greetings{
+  background-color: #d6cbd3;
+  text-align: center;
+  color: #50394c;
+  position: relative;
+  padding: 70px 0 50px 0;
+}
+
+.Top{
+  margin: 50px auto;
+}
