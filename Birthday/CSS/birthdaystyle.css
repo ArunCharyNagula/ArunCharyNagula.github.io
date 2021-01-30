@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: #caf0f8;
+}
+
+.Greetings {
+  background-color: #e9c46a;
+  text-align: center;
+  color: #6a040f;
+  position: relative;
+  padding: 70px 0 50px 0;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  padding: 100px 60px;
+}
+
+.Top {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.cake {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  left: 0;
+  width: 1380px;
+  height: 750px;
+}
+
+.Sam1 {
+  position: absolute;
+  width: 280px;
+  height: 450px;
+  left: 850px;
+  bottom: 270px;
+}
+
+.bottom-container {
+  background-color: #0077b6;
+  padding: 50px 0 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Montserrat"
+}
