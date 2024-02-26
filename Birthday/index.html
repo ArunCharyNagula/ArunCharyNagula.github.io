@@ -1,81 +1,236 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Happy Birthday</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="CSS/birthdaystyle.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="icon" href="favicon.ico">
+  <title>TinDog</title>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+  <!-- css stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <div class="Greetings">
-    <h1 class="heading"><strong><em>Hey Sam!!</em></strong> ❤</h1>
-    <h1>There is no better way to say happy birthday than to say <strong>"You mean very much to me.</strong></h1>
-  </div>
+  <section id="title">
+    <div class="container-fluid">
 
-  <div class="Top">
-    <div class="w3-container">
-      <div class="w3-card-4" style="width:50%">
-        <img class="Sam2" src="images/sam2.jpg" alt="Sam image">
-        <div class="w3-container w3-center">
-          <p class="sam2text"><strong><em>On your birthday, I want to express my gratitude that you entered this life and crossed paths with me. You are the best thing to happen in my life and I want to never let go. <br><strong>ILY❤</strong></em></strong>
-          </p>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Birthday Wishes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link-ltr" href="#features">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-ltr" href=" #testimonials">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-ltr" href="#cta">----</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-7">
+          <h1>Happy Birthday to the most beautiful girl I've ever known.</h1>
+        </div>
+        <div class="col-lg-5">
+          <img class="rounded-borders" src="images/iphone6.jpg" alt="iphone-mockup">
         </div>
       </div>
-    </div>
-    <div class="w3-container">
-      <div class="w3-card-4" style="width:50%">
-        <img class="Sam1" src="images/sam1.jpg" alt="Sam image">
-        <div class="w3-container w3-center">
-          <p class="sam1text"><strong><em>I know I don't say this enough, but you are truly appreciated and loved not just on your birthday but everyday. <br><strong>ILY❤</strong></em></strong></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-container">
-      <div class="w3-card-4" style="width:50%">
-        <img class="Sam" src="images/sam.jpg" alt="Sam image">
-        <div class="w3-container w3-center">
-          <p class="samtext"><strong><em>My Cutie, you have no idea how much I wish you were here with me on this special day. Everyday with you is a great celebration. I can't wait to have you in my arms.<br><strong>ILY❤</strong></em></strong></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <section id="testimonials">
-
-    <div id=carouselControls class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="gif" src="images/giphy.gif" alt="">
-          <embed class="Video" type="video/mp4" src="images/Sam_video.mp4" width="600" height="600">
-          <img class="gif1" src="images/dance.gif" alt="">
-          <p class="videotext"><strong>A,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,v,w,x,y,z.<br>Guess what is missing it's <strong>'U'</strong></strong><br><strong><strong>I MISS YOU ❤</strong></strong></p>
-        </div>
-        <div class="carousel-item active">
-          <img class="gif2" src="images/lovegif.gif" alt="">
-          <embed class="Video vid" type="video/mp4" src="images/Sam_video1.mp4" width="600" height="600">
-          <p class="videotext11"><strong>Please let's not go to cinema on this special day, you are the only movie I want to watch all the day long. ❤</strong></p>
-          <img class="gif3" src="images/birthdaygif.gif" alt="">
-        </div>
-      </div>
-
-    </div>
 
   </section>
 
-  <div class="bottom-container">
+  <!-- Features -->
 
-    <h2>I love you to the moon and back.</h2>
-    <h2>Take care Bye. ❣</h2>
-  </div>
+  <section id="features">
+    <div id=carouselControl class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonials-text">I no longer have to sniff other dogs for love.</h2>
+          <div class="row">
+            <div class="feature-box col-lg-4">
+              <img class="image zoom" src="images/IMG_2047.jpg" alt="">
+            </div>
+            <div class="feature-box col-lg-4">
+              <img class="image zoom" src="images/IMG_2047.jpg" alt="">
+            </div>
+            <div class="feature-box col-lg-4">
+              <img class="image zoom" src="images/IMG_2047.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their life.</h2>
+          <div class="row">
+            <div class="feature-box col-lg-4">
+              <img class="image zoom" src="images/IMG_2265.jpg" alt="">
+            </div>
+            <div class="feature-box col-lg-4">
+              <img class="image zoom" src="images/IMG_2265.jpg" alt="">
+            </div>
+            <div class="feature-box col-lg-4">
+              <img class="image zoom" src="images/IMG_2265.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControl" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControl" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id=carouselControls class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonials-text">I no longer have to sniff other dogs for love.</h2>
+          <img class="testimonial-image" src="images/IMG_3822.jpg">
+          <!-- <em>Pebbles, New York</em> -->
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their life. I think.</h2>
+          <img class="testimonial-image" src="images/IMG_2265.jpg">
+          <!-- <em>Beverly, Illinois</em> -->
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for you and your dog.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-outline-dark btn-block btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text">200rs / month</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark btn-block  btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text">500rs / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-dark  btn-block btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <div class="letter-image">
+      <div class="animated-mail">
+        <div class="back-fold"></div>
+        <div class="letter">
+          <div class="letter-border"></div>
+          <div class="letter-title">Hey Dear,</div>
+          <div class="letter-context">I Love You</div>
+          <div class="letter-stamp">
+            <div class="letter-stamp-inner"></div>
+          </div>
+        </div>
+        <div class="top-fold"></div>
+        <div class="body"></div>
+        <div class="left-fold"></div>
+      </div>
+      <div class="shadow"></div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <!-- <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i> -->
+    <p class="footer">© Copyright 2024 Anusha</p>
+
+  </footer>
 </body>
 
 </html>
